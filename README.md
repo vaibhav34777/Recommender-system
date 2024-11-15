@@ -2,11 +2,11 @@
 This project implements a content-based recommendation system using deep learning techniques in TensorFlow/Keras. The system recommends items to users based on their features by learning vector representations of users and items and computing their similarity.
 
 ### Features
-Deep Neural Networks: Separate neural networks for users and items to learn latent representations.
-Content-Based Filtering: Uses features of users and items to compute recommendations.
-L2 Normalization: Ensures the similarity is computed effectively in a unit hyperspace.
-Dot Product Similarity: Measures the closeness between user and item embeddings.
-Custom Training: Supports custom loss functions and optimizers for fine-tuning the recommendation performance.
+##### Deep Neural Networks: Separate neural networks for users and items to learn latent representations.
+##### Content-Based Filtering: Uses features of users and items to compute recommendations.
+##### L2 Normalization: Ensures the similarity is computed effectively in a unit hyperspace.
+##### Dot Product Similarity: Measures the closeness between user and item embeddings.
+##### Custom Training: Supports custom loss functions and optimizers for fine-tuning the recommendation performance.
 ### Dataset
 The system requires a dataset containing:
 
