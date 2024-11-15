@@ -8,6 +8,8 @@ This project implements a content-based recommendation system using deep learnin
 ##### Dot Product Similarity: Measures the closeness between user and item embeddings.
 ##### Custom Training: Supports custom loss functions and optimizers for fine-tuning the recommendation performance.
 ### Dataset
+The data set is derived from the [MovieLens ml-latest-small](https://grouplens.org/datasets/movielens/latest/) dataset. 
+
 The system requires a dataset containing:
 
 User Features: Numerical or categorical data representing user profiles (e.g., age, location, preferences).
