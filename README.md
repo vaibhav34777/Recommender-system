@@ -16,21 +16,21 @@ Interaction Data: User-item interactions for training the model (e.g., ratings, 
 ### Model Architecture
 The recommendation system is built with two separate neural networks:
 
-User Neural Network:
+#### User Neural Network:
 Layers: Dense layers with ReLU activations to learn user embeddings.
-Item Neural Network:
+#### Item Neural Network:
 Layers: Dense layers with ReLU activations to learn item embeddings.
-Final Layer
+#### Final Layer
 Dot Product Similarity: Computes the dot product of user and item embeddings as the recommendation score.
-Loss Function
+#### Loss Function
 Custom loss functions like MSE (Mean Squared Error) or BCE (Binary Crossentropy) can be used based on the task.
 
-Installation
+### Installation
 Prerequisites
-Python 3.7 or higher
-TensorFlow 2.x
-Numpy
-Pandas
+Python 3.7 or higher,
+TensorFlow 2.x,
+Numpy,
+Pandas,
 Scikit-learn (optional for preprocessing)
 ### Acknowledgments
 TensorFlow and Keras for deep learning.
